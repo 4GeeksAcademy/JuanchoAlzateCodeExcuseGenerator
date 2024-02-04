@@ -1,1 +1,16 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.ruleta {
+  position: fixed;
+  left: 40%;
+  top: 30%;
+  /* transform: translate(-50%, -50%); */
+  width: 700px;
+  height: 500px;
+  background-image: url(/src/assets/img/excusometro-img.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ruleta.active {
+  background-image: url(/src/assets/img/excusometro.gif);
+}

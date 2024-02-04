@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>SAQUEMOS EXCUSAS</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="shortcut icon" href="/src/assets/img/icono.png" />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <div>
+        <h1 class="mt-5">Hola Juancho, tengo una excusa para vos!.....</h1>
+        <h1 id="excuse" class="mt-5">Mi perro se comió mi tarea</h1>
+        <button id="btn_excusas">Generar nueva excusa</button>
+      </div>
+      <div id="imagen" class="ruleta">
+        <!-- <img src="/GeneradorExusasHtml/img/excusometro-img.jpg" alt="ruleta de excusas" /> -->
+      </div>
+
+      <div>
+        <p class="alert alert-warning mt-4">
+          Este programa fue un verdadero <b>reto</b>. Aún tengo mucho por
+          <b>aprender</b>.
+        </p>
+        <div class="fixed-bottom p-4">
+          Made with ❤️ by
+          <a href="https://www.4geeksacademy.com"
+            >4Geeks Academy & JUANCHO ALZATE</a
+          >
+        </div>
       </div>
     </div>
+    <audio
+      id="SoundButtom"
+      src="/src/assets/img/botongenerador.mp3"
+      type="audio/mpeg"
+    ></audio>
+    <script type="text/javascript" src="/src/app.js"></script>
   </body>
 </html>
